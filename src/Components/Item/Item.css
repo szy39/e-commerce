@@ -1,13 +1,26 @@
 .item{
     width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.item img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
 .item p{
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
 }
 
 .item-prices{
     display: flex;
     gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
 }
 .item-price-new{
     color: #374151;
@@ -23,5 +36,8 @@
 
 .item:hover{
     transform: scale(1.05);
-    transition: 0.5s ease-in-out;
+    transition: 0.3s;
 }
+
+/* Görsel boyutunu küçültmeden rem bazlı sabit kart genişliği */
+
