@@ -41,3 +41,7 @@
 
 /* Görsel boyutunu küçültmeden rem bazlı sabit kart genişliği */
 
+@media (max-width: 360px){
+    .item{ width: 100%; }
+    .item-prices{ gap: 0.75rem; }
+}

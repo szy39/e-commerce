@@ -58,3 +58,12 @@
     .offers-right img{ width: 16rem; }
 }
 
+@media (max-width: 360px){
+    .offers{ padding: 1rem; gap: 1rem; }
+    .offers-left{ width: 100%; }
+    .offers-left h1{ font-size: 1.5rem; }
+    .offers-left p{ font-size: 0.95rem; }
+    .offers-left button{ width: 10rem; height: 2.6rem; }
+    .offers-right img{ width: 12rem; }
+}
+
