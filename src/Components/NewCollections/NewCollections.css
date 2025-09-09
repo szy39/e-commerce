@@ -62,3 +62,9 @@
         width: 20rem;
     }
 }
+
+@media (max-width:360px){
+    .new-collections h1 { font-size: 1.5rem; }
+    .new-collections hr { width: 14rem; }
+    .new-collections-item{ gap: 1.25rem; grid-template-columns: 1fr; }
+}
