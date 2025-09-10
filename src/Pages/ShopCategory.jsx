@@ -5,6 +5,9 @@ import dropdown_icon from "../Components/Assets/dropdown_icon.png"
 import Item from '../Components/Item/Item'
 
 const ShopCategory = (props) => {
+  const handleClick=(e)=>{
+    console.log(e)
+  }
   const {all_product} = useContext(ShopContext)
   return (
     <div className='shop-category'>
@@ -19,7 +22,7 @@ const ShopCategory = (props) => {
         {all_product.map((item,index)=>{
           if(props.category === item.category){
             return(
-              <Item item={item} key={index} />
+              <Item item={item} key={index} click={handleClick} />
             )
            
           }else{

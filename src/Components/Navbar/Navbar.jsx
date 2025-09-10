@@ -45,7 +45,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
+        <NavLink to="/login"><button>Login</button></NavLink>
         <img src={cart_icon} alt="cart-icon" />
         <div className="nav-cart-count">0</div>
       </div>
