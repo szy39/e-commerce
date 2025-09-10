@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Item.css"
-const Item = ({item}) => {
+const Item = ({item ,click}) => {
+
   return (
-    <div className="item">
+    <div className="item" onClick={()=>click(item)} >
         <img src={item.image} alt="" />
         <p>{item.name}</p>
         <div className="item-prices">
