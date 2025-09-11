@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Item = ({ item, click }) => {
   return (
     <div className="item" onClick={() => click(item)}>
-      <Link to={`/product/${item.id}`}>
+      <Link>
         <img src={item.image} alt="" />
       </Link>
       <p>{item.name}</p>
